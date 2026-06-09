@@ -1,0 +1,197 @@
+@media(max-width:600px){
+  .div01{
+    display: flex;
+    flex-direction: column;
+  }
+   .div02{
+    display: flex;
+    flex-direction: column;
+   }
+   .div03{
+    display: flex;
+    flex-direction: column;
+   }
+   .logo01{
+    margin-right:250px;
+   }
+  }
+
+body{
+  background-color:rgb(253, 253, 236);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  position: relative;
+  z-index: 200;
+}
+.div01{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  z-index: 100;
+  background-color:rgb(253, 253, 236) ;
+  border-bottom: solid 1px black;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+.hum{
+  width: 60px;
+  margin-left: 15px;
+}
+.div02{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div02 h3{
+  margin-left: 50px;
+}
+.logo01{
+  display: flex;
+  margin-left: 250px;
+}
+.div03{
+  display: flex;
+  margin-left: 500px;
+}
+
+.button01{
+  width: 120px;
+  height: 50px;
+  margin-left: 10px;
+  background-color: rgb(252, 188, 111);
+  color: white;
+  font-weight: bold;
+}
+.main{
+  width: 100%;
+}
+.div05{
+  width: 400px;
+  display: inline-block;
+  margin-top: 100px;
+  line-height: 25px;
+  margin-left: 20px;
+}
+.div05 h2{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.div05 p {
+  text-align: justify;
+}
+.div06{
+  display: inline-block;
+  margin-top: 100px;
+  vertical-align: top;
+  margin-left: 85px;
+
+}
+.img01{
+  width: 950px;
+  height: 570px;
+}
+.div07{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  text-align: center;
+}
+.div07 img{
+  width: 420px;
+  height: 350px;
+}
+.box{
+  width: 420px;
+  height: 420px;
+  border: 2px solid rgb(238, 227, 158)
+;
+}
+.box:hover{
+  transform: scale(1.01)
+  
+}
+.div08{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.div08 img {
+ width: 650px;
+ 
+}
+.box01{
+  width: 650px;
+  position: relative;
+}
+.box01:hover{
+  opacity: 0.8;
+}
+.box01 h3{
+  position: absolute;
+  top: 330px;
+  left: 20px;
+  font-size: 25px;
+  color: white;
+}
+.section01{
+  padding-top: 113px;
+}
+.div09{
+  margin-top: 50px;
+  height: 600px;
+  background-image: url(img/The-Leela-Kovalam-A-Raviz-Hotel_0.jpg);
+  position: relative;
+  margin-bottom: 50px;
+}
+.div10{
+  text-align: center;
+  background-color:rgba(0,0,0,0.4);
+  height: 500px;
+  color: white;
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  border: solid 2px rgb(179, 169, 103);
+}
+.div11{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div11 p{
+  margin-left: 20px;
+}
+.but{
+  margin-top: 20px;
+  width: 120px;
+  height: 30px;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+  border: solid 1px rgb(255, 248, 202);
+}
+.div12{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer01{
+ background-color: black;
+ color: white;
+ padding-top:40px;
+}
+.div13{
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid white;
+  margin-top: 50px;
+  align-items: center;
+}
+.div12 h2{
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
